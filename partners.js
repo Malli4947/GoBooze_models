@@ -94,7 +94,7 @@ const partnerSchema = new mongoose.Schema(
       key: {
         type: String,
         required: false,
-        default: "",
+        default: "malli",
       },
       enabled: {
         type: Boolean,
